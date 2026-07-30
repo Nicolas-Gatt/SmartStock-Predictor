@@ -1,8 +1,8 @@
-# 📈 SmartStock-Predictor
+#  SmartStock-Predictor
 
 Um pipeline de Machine Learning em Python orientado a objetos para previsão de demanda e faturamento no varejo utilizando dados históricos da rede Walmart. O diferencial da aplicação é converter o erro estatístico do modelo em métricas financeiras reais, gerando automaticamente um orçamento de compras e calculando custos operacionais de estoque.
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 
 * **Análise Financeira Assimétrica:** Avalia os custos operacionais diferenciando capital imobilizado por excesso de mercadoria (*Overstock*) de lucro não realizado por falta de produtos nas prateleiras (*Stockout*).
 * **Orçamento Inteligente de Estoque:** Aplica regras de negócio para calcular o Custo da Mercadoria Vendida (CMV) e recomendar o aporte exato de capital para aquisição de inventário com 94% de acurácia.
@@ -10,13 +10,13 @@ Um pipeline de Machine Learning em Python orientado a objetos para previsão de 
 * **Arquitetura Limpa e Orientada a Objetos:** Estrutura desenvolvida sob os princípios de *Clean Code*, SOLID (SRP) e padrão *Facade*, isolando regras financeiras da modelagem estatística.
 * **Observabilidade de Produção:** Sistema nativo de *logging* integrado que exibe o progresso de treinamento nos núcleos da CPU, métricas estatísticas (RMSE) e o relatório executivo de gastos no terminal.
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 * Python 3.8+
 * Scikit-Learn (Modelagem preditiva com *RandomForestRegressor*)
 * Pandas & NumPy (Manipulação de dados e álgebra linear)
 
-## ⚙️ Como Executar o Projeto Localmente
+## Como Executar o Projeto Localmente
 
 Certifique-se de que o arquivo `Walmart_Sales.csv` esteja salvo dentro da pasta `data/`. Siga os comandos abaixo no terminal para configurar e rodar a aplicação em sua máquina:
 
